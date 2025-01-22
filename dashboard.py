@@ -3,7 +3,7 @@ import dash
 from dash import dcc, html
 
 try:
-    df = pd.read_excel('/a0/tmp/export.xls', skiprows=7).dropna()
+    df = pd.read_excel(r'C:\Users\coses\Agent-zero-data\tmp\GitTest\Hello-Agent\Hello-Agent\export.xls', skiprows=7).dropna()
 except Exception as e:
     raise SystemExit(f"Data error: {e}")
 
